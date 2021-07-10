@@ -1,0 +1,40 @@
+.heading{
+    font-size: 23px;
+    width: 100%;
+    margin: 0px;
+    box-shadow: 5px 5px 5px gray;
+}
+.heading_div{
+    float: none;
+    background: white;
+    padding: 10px;
+    border-radius: 20px;
+    color: black;
+    box-shadow: 5px 5px 5px red;
+}
+.heading_div2{
+    font-size: 18px;
+}
+.copy_right_footer{
+    position: fixed;
+    color: aquamarine;
+    bottom: 0;
+    width:100%;
+    background-color: coral;
+    line-height:2;
+    text-align: center;
+}
+.result_para{
+    font-size: 20px;
+    animation: mymove 5s infinite;
+}
+@keyframes mymove { 
+50% {box-shadow: 20px 20px 20px #f2ff00;}
+    
+}
+canvas{
+border: 5px solid black;
+border-radius: 20px;
+box-shadow: 5px 5px 5px blue;
+margin-top: 150px;
+}
